@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    background-color: #141414;
+    color: #fff;
+    font-family:  Helvetica, Arial, sans-serif;
+
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 37.516px;
+    padding-left: 37.561px;
+    height: 41px;
+    align-items: flex-end;
+    position: fixed;
+    z-index: 99999;
+    background-color: #141414;
+    font-size: 14px;
+}
+
+#logo{
+    color: #E10715;
+    font-size: 30px;
+}
+
+nav li {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#logo {
+    margin-left: 10px;
+}
+
+#left-side {
+    display: flex;
+    align-items: center;
+    width: 925px;
+    color: #e1e1e1;;
+   
+    
+}
+#home{
+    color: #fff;
+}
+
+
+#right-side {
+    display: flex;
+    align-items: center;
+    transform: translateY(3px);
+    justify-content: flex-end;
+    
+    width: 925px;
+    
+    
+    
+}
+#right-side li {
+    width: 10px;
+    padding-right: 50px;
+}
+
+#hero{
+    
+}
+
+#row-container {
+    padding-left: 60px;
+}
+
+#row-container img {
+    transform: translate(-20px);
+    
+}
+
+#row-container div #popular {
+    transform: translate(0px);
+}
+
+#row-container div {
+    padding-bottom: 35px;
+}
+
+footer{
+    width:100%;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    font-size: 11px;
+    
+    
+    
+    
+}
+footer div{
+ 
+}
+#social-media{
+    display: flex;
+    
+}
+#social-media div{
+    flex-direction: column;
+}
+#social-media li{
+    list-style-type: none;
+    padding: 10px;
+    transform: scale(0.9);
+}
+#company-information{
+    display: flex;
+    width: 80%;
+    
+    
+    
+}
+#company-information div{
+    flex-direction: column;
+    padding-right: 150px;
+    
+    
+}
+#company-information li {
+    list-style-type: none;
+    padding: 10px;
+}
+#service-code {
+    margin: 8px;
+    display: flex;
+    border-color: #757575;
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+
+}
+#service-code p{
+    padding-left: 7px;
+    font-size: 12px;
+}
+#copyright{
+    margin: 8px;
+}
